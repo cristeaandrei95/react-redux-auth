@@ -1,0 +1,174 @@
+.frame {
+ display:table;
+ height: 100vh;
+ width: 100%;
+ background: #f1f1f1;
+}
+.frameInner {
+ display:table-cell;
+ text-align: center;
+ vertical-align:middle;
+ padding: 2rem;
+}
+
+
+
+/* auth */
+.login {
+ min-width: 500px;
+ margin: 0 auto;
+ border-radius: 0.6rem;
+ box-shadow: 0 1px 2px rgba(0,0,0,.1);
+ -moz-box-sizing: border-box;
+ background: #fff;
+ display:table;
+ padding: 2rem 4rem;
+}
+
+/* inputs */
+
+.inputLogin {
+ width: 100%;
+ padding: 20px 0; 
+}
+.emailIcon{
+ display: table-cell;
+ vertical-align: middle;
+ width: 100px;
+}
+.emailIcon:before {
+ content: "\f0e0";
+ font-size: 3rem;
+ color: #3d3d3d;
+
+}
+.inputLink {
+ float: right;
+ color: #00c2dd;
+ margin-top: 20px;
+ text-align: right;
+ line-height: 1.7rem;
+}
+.inputText {
+ width: 100%;
+ display: table-cell;
+ border: 0;
+ padding: 15px;
+ height: 40px;
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+ font-weight: 700;
+ font-size: 16px;
+ width: 100%;
+ color: #3d3d3d;
+ text-align: center;
+}
+.inputText:focus{
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+ outline-color: #b10000;
+}
+
+.inputWrapper {
+ display: table;
+ width: 100%;
+ font: normal normal normal 14px/1 FontAwesome;
+}
+
+/* pass input */
+
+.inputLogin {
+ width: 100%;
+ padding: 20px 0; 
+}
+.passIcon {
+ display: table-cell;
+ vertical-align: middle;
+ width: 100px;
+}
+.passIcon:before {
+ content: "\f023";
+ font-size: 3rem;
+ color: #3d3d3d;
+}
+
+.inputLink {
+ float: right;
+ color: #00c2dd;
+ margin-top: 20px;
+ text-align: right;
+ line-height: 1.7rem;
+}
+.inputLink:hover {
+ float: right;
+ color: #b10000;
+ margin-top: 20px;
+}
+.inputText {
+ width: 100%;
+ display: table-cell;
+ border: 0;
+ padding: 15px;
+ height: 40px;
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+ font-weight: 700;
+ font-size: 16px;
+ width: 100%;
+ color: #3d3d3d;
+ text-align: center;
+}
+.inputText:focus{
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+ outline-color: #b10000;
+}
+
+.inputWrapper {
+ display: table;
+ width: 100%;
+ font: normal normal normal 14px/1 FontAwesome;
+}
+
+/* submit */
+.button{
+ border-radius: 5rem;
+ padding: 5px 30px; 
+ font-size: 18px;
+ font-weight: 700;
+ background: transparent;
+ cursor: pointer;
+}
+
+.red{
+ composes: button;
+ color: #b10000;
+ border: 3px solid #b10000;
+}
+.red:hover{
+ background: #b10000;
+ color: #fff; 
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.red:focus{
+ outline-color: transparent;
+}
+
+
+
+
+
+/* media query */
+@media screen and (max-width: 540px) {
+ .login {
+  min-width: initial;
+  width: 100%;
+ } 
+}
+@media screen and (max-width: 360px) {
+ .emailIcon{
+  display: none;
+ }
+ .passIcon{
+  display: none;
+ }
+
+}
+
+

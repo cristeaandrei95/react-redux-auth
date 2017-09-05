@@ -1,0 +1,55 @@
+.inputLogin {
+ width: 100%;
+ padding: 20px 0; 
+}
+.passIcon {
+ display: table-cell;
+ vertical-align: middle;
+ width: 100px;
+}
+.passIcon:before {
+ content: "\f023";
+ font-size: 3rem;
+ color: #3d3d3d;
+}
+
+.inputLink {
+ float: right;
+ color: #00c2dd;
+ margin-top: 20px;
+ text-align: right;
+ line-height: 1.7rem;
+}
+.inputLink:hover {
+ float: right;
+ color: #b10000;
+ margin-top: 20px;
+}
+.inputText {
+ width: 100%;
+ display: table-cell;
+ border: 0;
+ padding: 15px;
+ height: 40px;
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+ font-weight: 700;
+ font-size: 16px;
+ width: 100%;
+ color: #3d3d3d;
+ text-align: center;
+}
+.inputText:focus{
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+ outline-color: #b10000;
+}
+
+.inputWrapper {
+ display: table;
+ width: 100%;
+ font: normal normal normal 14px/1 FontAwesome;
+}
+@media screen and (max-width: 360px) {
+ .passIcon{
+  display: none;
+ }
+}

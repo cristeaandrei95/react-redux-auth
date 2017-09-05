@@ -1,0 +1,16 @@
+.frame {
+ display:table;
+ height: 100vh;
+ width: 100%;
+ background: #f1f1f1;
+}
+.frameInner {
+ display:table-cell;
+ text-align: center;
+ vertical-align:middle;
+ padding: 20px;
+}
+.logo {
+ padding-bottom: 30px;
+}
+
